@@ -216,7 +216,7 @@ frame_hector = ttk.Frame(tab4)
 frame_hector.pack(side='top', anchor='w')
 
 
-imagen_hector = PhotoImage(file="C:/perifericos/E.png")  # Coloca la ruta de la imagen
+imagen_hector = PhotoImage(file="C:/perifericos/E.png")  
 ttk.Label(frame_hector, image=imagen_hector).pack(side='left', padx=5)
 
 
@@ -239,7 +239,7 @@ boton_frase.pack(pady=5)
 frame_nayeli = ttk.Frame(tab4)
 frame_nayeli.pack(side='top', anchor='w')
 
-imagen_nayeli = PhotoImage(file="C:/perifericos/D.png")  # Coloca la ruta de la imagen
+imagen_nayeli = PhotoImage(file="C:/perifericos/D.png") 
 ttk.Label(frame_nayeli, image=imagen_nayeli).pack(side='left', padx=5)
 
 frame_info_nayeli = ttk.Frame(frame_nayeli)
